@@ -1,0 +1,70 @@
+                *{
+                margin: 0%;
+                padding: 0%; 
+            }
+            header{
+                padding: 1em;
+                background-color: brown;
+                vertical-align: top;
+                display: inline-block;
+                display: flex;
+                align-items: center;
+            }
+            header h1{
+                color: white;
+                padding-left: 3em;
+                font-size: 2em;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                
+            }
+            header img{
+                border-radius: 50%;
+                width: 10em;
+                height: 10em;
+                margin-left: auto;
+            }
+            main{
+                background-color: beige;
+                text-align: center;
+                padding: 5em;
+            }
+            article{
+                display: inline-block;
+                padding: 1em;
+                margin: 2em;
+                background-color: brown;
+                color: white;
+            }
+            article:hover{
+                display: inline-block;
+                background-color: black;
+                color: white;
+            }
+            article img{
+                width: 300px;
+            }
+            nav{
+                background-color: brown;
+                padding: 3em;
+                text-align: center;
+            }
+            a{
+    background-color: brown;
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+article a{
+    background-color: transparent;
+    padding: 0%;
+}
+
+article a:hover{
+    background-color: transparent;
+}
